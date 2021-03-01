@@ -4,31 +4,31 @@ import "fmt"
 
 func main() {
 	/*
-	switch语句
-	1.标准写法
-		switch 变量名 {
-			case 数值1: 分支1
-			case 数值2: 分支2
-			case 数值3: 分支3
-			default:
-				最后一个分支
+		switch语句
+		1.标准写法
+			switch 变量名 {
+				case 数值1: 分支1
+				case 数值2: 分支2
+				case 数值3: 分支3
+				default:
+					最后一个分支
+			}
+		其他写法
+		其他写法1， 省略switch后的变量，相当于直接作用在true上
+		switc { // true
 		}
-	其他写法
-	其他写法1， 省略switch后的变量，相当于直接作用在true上
-	switc { // true
-	}
 
-	其他写法2. case后可以同时跟随多个数值
-	switch 变量 {
-	case 数值1, 数值2, 数值3:
-	case 数值4, 数值5:
-	}
+		其他写法2. case后可以同时跟随多个数值
+		switch 变量 {
+		case 数值1, 数值2, 数值3:
+		case 数值4, 数值5:
+		}
 
-	其他写法3， switch后可以多一条初始化语句
-	switch 初始化语句;变量 {
-	}
+		其他写法3， switch后可以多一条初始化语句
+		switch 初始化语句;变量 {
+		}
 
-	 */
+	*/
 
 	// =====================标准写法============================
 	num := 5
@@ -41,8 +41,8 @@ func main() {
 		fmt.Println(3)
 	case 4:
 		fmt.Println(4)
-	//default:
-	//	fmt.Println("数据有误")
+		//default:
+		//	fmt.Println("数据有误")
 	}
 
 	fmt.Println("=======================")

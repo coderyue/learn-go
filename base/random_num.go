@@ -12,14 +12,14 @@ func main() {
 	生成随机数
 	 	伪随机数， 根据一定的算法公式算出来的
 	math/rand
-	 */
+	*/
 
 	num1 := rand.Int()
-	fmt.Println(num1)  // 由于种子相同，所以多次运行结果一样
+	fmt.Println(num1) // 由于种子相同，所以多次运行结果一样
 
 	//num1 = rand.Intn(10)
 	for i := 0; i < 10; i++ {
-		fmt.Println( rand.Intn(10))
+		fmt.Println(rand.Intn(10))
 	}
 
 	rand.Seed(3)

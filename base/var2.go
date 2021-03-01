@@ -28,11 +28,10 @@ func main() {
 	fmt.Println(m)
 	var n float64
 	fmt.Println(n)
-	var s string	 // ""
+	var s string // ""
 	fmt.Println(s)
-	var s2 [] int // 切片
+	var s2 []int // 切片
 	fmt.Println(s2)
 	fmt.Println(s2 == nil)
-
 
 }

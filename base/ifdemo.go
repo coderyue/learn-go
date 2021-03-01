@@ -22,7 +22,7 @@ func main() {
 	} else if bool2 {
 
 	}
-	 */
+	*/
 
 	num := 6
 	if num > 10 {

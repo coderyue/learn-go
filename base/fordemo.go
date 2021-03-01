@@ -16,7 +16,7 @@ func main() {
 		相当于while(true)
 	4.其他写法 ：for循环中同时省略几个表达式都可以
 		省略表达式二: 死循环
-	 */
+	*/
 	// 标准写法
 	fmt.Println("标准写法============")
 	for i := 0; i < 3; i++ {
@@ -27,7 +27,7 @@ func main() {
 	fmt.Println("同时省略表达式1和表达式3============")
 	i := 1
 	// go里面支持吧分号也省略
-	for ;i < 5; {
+	for i < 5 {
 		fmt.Println(i)
 		i++
 	}
@@ -49,6 +49,5 @@ func main() {
 		}
 		i2++
 	}
-
 
 }

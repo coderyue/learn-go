@@ -26,12 +26,12 @@ func main() {
 
 		slice: nil  但是指向的是数组， 可以直接使用
 		map: nil  不能直接使用
-	 */
+	*/
 
 	// 1.创建map
 	var map1 map[int]string
 	var map2 = make(map[int]string)
-	map3 := map[string]int{"go":12, "python":23, "c":25}
+	map3 := map[string]int{"go": 12, "python": 23, "c": 25}
 	fmt.Println(map1)
 	fmt.Println(map2)
 	fmt.Println(map3)

@@ -35,11 +35,10 @@ func main() {
 
 	var (
 		studentName = "name"
-		age = 18
-		sex = "女"
+		age         = 18
+		sex         = "女"
 	)
 	fmt.Printf("学生姓名: %s, 年龄: %d, 性别: %s\n", studentName, age, sex)
 	fmt.Println("学生姓名:", studentName, "年龄:", age, "性别:", sex)
 
 }
-

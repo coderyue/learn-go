@@ -37,23 +37,22 @@ func main() {
 			Scanf()
 		bufio包
 
-	 */
+	*/
 
 	/*
-	var x int
-	var y float64
-	fmt.Println("请输入一个整数， 一个浮点数")
-	fmt.Scanln(&x, &y) // 读取键盘的输入，通过操作地址，赋值给x和y  阻塞式
-	fmt.Printf("x: %d, y: %f\n", x, y)
+		var x int
+		var y float64
+		fmt.Println("请输入一个整数， 一个浮点数")
+		fmt.Scanln(&x, &y) // 读取键盘的输入，通过操作地址，赋值给x和y  阻塞式
+		fmt.Printf("x: %d, y: %f\n", x, y)
 
-	// 按格式度读取，这里两个值之间用逗号隔开， 和%d,%f保持一致
-	fmt.Scanf("%d,%f", &x, &y)
-	fmt.Printf("x: %d, y: %f\n", x, y)
+		// 按格式度读取，这里两个值之间用逗号隔开， 和%d,%f保持一致
+		fmt.Scanf("%d,%f", &x, &y)
+		fmt.Printf("x: %d, y: %f\n", x, y)
 	*/
 	fmt.Println("请输入一个字符串")
 	reader := bufio.NewReader(os.Stdin)
 	s1, _ := reader.ReadString('\n')
 	fmt.Println(s1)
-
 
 }

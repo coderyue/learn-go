@@ -7,7 +7,7 @@ import (
 func main() {
 
 	var a = 10
-	LOOP:
+LOOP:
 	for a < 20 {
 		if a == 15 {
 			a++
@@ -29,7 +29,7 @@ func main() {
 	}
 	// 手动返回，避免执行进入标签
 	return
-	OUT:
-		fmt.Println("goto here...")
+OUT:
+	fmt.Println("goto here...")
 
 }

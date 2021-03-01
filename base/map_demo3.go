@@ -11,7 +11,7 @@ func main() {
 
 		make() 创建都是引用类型
 
-	 */
+	*/
 
 	map1 := make(map[string]string)
 	map1["name"] = "熊大"
@@ -32,7 +32,7 @@ func main() {
 
 	// 遍历切片
 	for i, val := range s {
-		fmt.Printf("第%d个人的信息是：\n", i + 1)
+		fmt.Printf("第%d个人的信息是：\n", i+1)
 		fmt.Println("\tname:", val["name"])
 		fmt.Println("\tage:", val["age"])
 		fmt.Println("\tsex", val["sex"])
