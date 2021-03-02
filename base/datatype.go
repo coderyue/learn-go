@@ -30,7 +30,7 @@ func main() {
 				复数
 			字符串
 		2， 复合数据类型
-			eg： array, slice, map, function, pointer,	struct, interface, channel...
+			eg： array, slice, map, function, pointe_and_later,	struct, interface, channel...
 
 	*/
 	// 整数
