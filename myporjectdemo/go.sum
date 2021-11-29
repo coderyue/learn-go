@@ -1,0 +1,6 @@
+github.com/dgrijalva/jwt-go v3.2.0+incompatible h1:7qlOGliEKZXTDg6OTjfoBKDXWrumCAMpl/TFQ4/5kLM=
+github.com/dgrijalva/jwt-go v3.2.0+incompatible/go.mod h1:E3ru+11k8xSBh+hMPgOLZmtrrCbhqsmaPHjLKYnJCaQ=
+github.com/gitstliu/go-redis-cluster v0.0.0-20190226073442-d274d87c0bfa h1:OgwqzDQUODotcLLrAlcbA9P7g7V6bRI1nWadaVrI10g=
+github.com/gitstliu/go-redis-cluster v0.0.0-20190226073442-d274d87c0bfa/go.mod h1:YZ/CN+LK1E5oPVzIxqqoDwvc7wv3fmJdrwmBvCpw6PU=
+github.com/go-sql-driver/mysql v1.6.0 h1:BCTh4TKNUYmOmMUcQ3IipzF5prigylS7XXjEkfCHuOE=
+github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
